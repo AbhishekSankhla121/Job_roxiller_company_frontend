@@ -8,4 +8,4 @@ const store = configureStore({
 });
 
 export default store;
-export const server = "https://job-roxiller-company-backend.onrender.com/api/v1"
+export const server = process.env.REACT_APP_API_URL;
